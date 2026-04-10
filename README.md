@@ -1,9 +1,9 @@
-# ESP32-S3-Companion-Computer-v1.0
+# ESP32-S3-DevBoard-v1.0
 
 ## Overview
-This project is the first version of my **ESP32-S3-based companion computer** designed for an **autonomous drone system**. The purpose of this board is to act as a **wireless communication, expansion, and development support board** that will eventually interface with a **custom STM32-based flight controller**.
+This project is the first version of my **ESP32-S3**. The purpose of this board is to act as a **wireless communication, expansion, and development support board**.
 
-Rather than serving as the real-time flight controller itself, this board is intended to handle **higher-level support functions** such as wireless communication, sensor interfacing, debugging, and future peripheral expansion.
+This board is intended to handle **higher-level support functions** such as wireless communication, sensor interfacing, debugging, and future peripheral expansion.
 
 This is **Version 1.0**, meaning the primary goal was to design and lay out a functional first revision that establishes the core architecture for future integration and testing.
 
@@ -12,11 +12,10 @@ This is **Version 1.0**, meaning the primary goal was to design and lay out a fu
 ## Project Goals
 The main goals of this board were to:
 
-- Build a **modular companion board** for a future autonomous drone platform
+- Build a **modular companion board** for a future platforms
 - Create a hardware platform around the **ESP32-S3**
 - Add support for **wireless communication and external peripherals**
 - Provide **easy bring-up, programming, and debugging access**
-- Design a board that can later interface with a **custom STM32 flight controller**
 - Establish a foundation for future onboard communication, telemetry, and sensor expansion
 
 ---
@@ -99,7 +98,6 @@ This board is still in its early stages, and future revisions will likely includ
 - Test programming/debug functionality with ESP-PROG
 - Bring up onboard LEDs, switches, and sensor interfaces
 - Validate I2C and SPI expansion functionality
-- Begin communication testing with a future STM32-based board
 
 ### Long-Term Plans
 - Pair this board with a **custom STM32 flight controller**
